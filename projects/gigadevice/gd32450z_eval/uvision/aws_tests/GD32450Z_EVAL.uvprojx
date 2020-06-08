@@ -54,7 +54,7 @@
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>
           <DebugInformation>1</DebugInformation>
-          <BrowseInformation>0</BrowseInformation>
+          <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\list\</ListingPath>
           <HexFormatSelection>1</HexFormatSelection>
           <Merge32K>0</Merge32K>
@@ -795,7 +795,7 @@
             <File>
               <FileName>NetworkInterface.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\libraries\freertos_plus\standard\freertos_plus_tcp\source\portable\NetworkInterface\Gigadevice\NetworkInterface.c</FilePath>
+              <FilePath>..\..\..\..\..\libraries\freertos_plus\standard\freertos_plus_tcp\source\portable\NetworkInterface\Gigadevice\GD32F4xx\NetworkInterface.c</FilePath>
             </File>
           </Files>
         </Group>

@@ -36,6 +36,17 @@ OF SUCH DAMAGE.
 #ifndef GD32F4xx_ENET_EVAL_H
 #define GD32F4xx_ENET_EVAL_H
 
+#define CHECKSUM_BY_HARDWARE
+
+/* MII and RMII mode selection */
+#define RMII_MODE  // user have to provide the 50 MHz clock by soldering a 50 MHz oscillator
+//#define MII_MODE
+
+/* clock the PHY from external 25MHz crystal (only for MII mode) */
+#ifdef  MII_MODE
+#define PHY_CLOCK_MCO
+#endif
+
 /* function declarations */
 /* setup ethernet system(GPIOs, clocks, MAC, DMA, systick) */
 void  enet_system_setup(void);

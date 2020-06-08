@@ -34,12 +34,8 @@ OF SUCH DAMAGE.
 
 #include <string.h>
 #include <stdio.h>
-#include "main.h"
 #include "gd32f4xx_libopt.h"
-
-ErrStatus trng_state_check(void);
-ErrStatus trng_config(void);
-int mbedtls_hardware_poll( void *data, unsigned char *output, size_t len, size_t *olen );
+#include "entropy_hardware_poll.h"
 
 /*!
     \brief      check whether the TRNG module is ready

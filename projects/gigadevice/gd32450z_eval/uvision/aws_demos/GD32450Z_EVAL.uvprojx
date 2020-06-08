@@ -770,7 +770,7 @@
             <File>
               <FileName>NetworkInterface.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\..\libraries\freertos_plus\standard\freertos_plus_tcp\source\portable\NetworkInterface\Gigadevice\NetworkInterface.c</FilePath>
+              <FilePath>..\..\..\..\..\libraries\freertos_plus\standard\freertos_plus_tcp\source\portable\NetworkInterface\Gigadevice\GD32F4xx\NetworkInterface.c</FilePath>
             </File>
           </Files>
         </Group>

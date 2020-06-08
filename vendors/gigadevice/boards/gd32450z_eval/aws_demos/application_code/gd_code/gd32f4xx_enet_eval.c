@@ -35,7 +35,6 @@ OF SUCH DAMAGE.
 
 #include "gd32f4xx_enet.h"
 #include "gd32f4xx_enet_eval.h"
-#include "main.h"
 
 static __IO uint32_t enet_init_status = 0;
 

@@ -184,7 +184,7 @@ void vApplicationIPNetworkEventHook( eIPCallbackEvent_t eNetworkEvent )
             * microcontroller flash using PKCS#11 interface. This should be replaced
             * by production ready key provisioning mechanism. */
             vDevModeKeyProvisioning();
-          
+
             /* Run all demos. */
             DEMO_RUNNER_RunDemos();
             xTasksAlreadyCreated = pdTRUE;

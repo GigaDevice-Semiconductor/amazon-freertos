@@ -35,7 +35,6 @@ OF SUCH DAMAGE.
 
 #include "gd32f4xx.h"
 #include "gd32f4xx_it.h"
-//#include "main.h"
 
 #include "FreeRTOS.h"
 #include "task.h"
